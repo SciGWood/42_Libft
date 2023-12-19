@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 12:25:55 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/05 16:42:45 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:31:34 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,14 +20,3 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	printf("tested == expected == libc == 42libc\n\n");
-	printf("ft_isalnum\n");
-	printf("a == 1 == %d == %d\n", isalnum('a'), ft_isalnum('a'));
-	printf("6 == 1 == %d == %d\n", isalnum('6'), ft_isalnum('6'));
-	printf(": == 0 == %d == %d\n", isalnum(':'), ft_isalnum(':'));
-	return (0);
-}*/

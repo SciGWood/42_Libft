@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 16:51:47 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/10 14:20:45 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:31:23 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,22 +31,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	str3[] = "Hello World";
-	char	str4[] = "Hello World";
-	
-	printf("\nbzero\n");
-	printf("str, n --> expected == str\n");
-	printf("%s, 3 --> lo World == ", str3);
-	bzero(str3, 3);
-	printf("%s\n", str3 + 3);
-	printf("\nft_bzero\n");
-	printf("str, n --> expected == str\n");
-	printf("%s, 3 --> lo World == ", str4);
-	ft_bzero(str4, 3);
-	printf("%s\n", str4 + 3);
-	return (0);
-}*/

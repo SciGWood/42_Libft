@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 11:24:15 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/10 15:54:10 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:35:15 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,21 +34,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-/*#include <stdio.h>
-
-static void	ft_toupper_bis(unsigned int c, char *d)
-{
-	(void)d;
-	if ('a' <= c && c <= 'z')
-		c -= 32;
-}
-
-int	main(void)
-{
-	char	striteri[] = "coucouPLOUFbonjour";
-
-	printf("%s\n", striteri);
-	ft_striteri(striteri, ft_toupper_bis);
-	printf("%s\n", striteri);
-	return (0);
-}*/

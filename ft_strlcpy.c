@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 18:25:54 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/11 15:03:09 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:35:48 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,15 +49,3 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 	}
 	return (ft_strlen(s));
 }
-/*#include <stdio.h>
-
-int     main(void)
-{
-	char	src[] = "Source";
-	char	dest[] = "Desti";
-
-	printf("%s\n%s\n", src, dest);
-	printf("%ld\n", ft_strlcpy(dest, src, 12));
-	printf("%s\n%s\n", src, dest);
-	return (0);
-}*/

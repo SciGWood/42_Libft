@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 12:46:29 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/11 14:35:08 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:36:13 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,16 +50,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-/*#include <stdio.h>
-
-int     main(void)
-{
-        char    big[] = "coucouPLOUFbonjour";
-        char    little[] = "PLOUF";
-
-        printf("%s\n", big);
-		printf("len = 6, %s\n", ft_strnstr(big, little, 6));
-		printf("len = 8, %s\n", ft_strnstr(big, little, 8));
-		printf("len = 12, %s\n", ft_strnstr(big, little, 12));
-        return (0);
-}*/

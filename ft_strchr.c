@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 10:59:03 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/11 16:51:09 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:34:58 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,18 +38,3 @@ char	*ft_strchr(const char *s, int c)
 		return (&str[i]);
 	return (NULL);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	str[] = "Hello World";
-
-	printf("str, chr, libC == 42libC\n");
-	printf("%s, A, %s == %s\n", str, strchr(str, 'A'), ft_strchr(str, 'A'));
-	printf("%s, \\0, %s == %s\n", str, strchr(str, '\0'), 
-	ft_strchr(str, '\0'));
-	printf("%s, o, %s == %s\n", str, strchr(str, 'o'), ft_strchr(str, 'o'));
-	return (0);
-}
-if (str == NULL)
-		return (NULL);*/

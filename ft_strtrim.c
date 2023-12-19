@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 11:47:25 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/12 11:10:10 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:36:29 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,35 +66,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	strtrim[k] = '\0';
 	return (strtrim);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	s1[] = "---  ===- = Hello --= =- World ---=== -=- ";
-	char	s2[] = "---  ===- = ---=== -=- ";
-	char	str4[] = "";
-	char	set1[] = " -=";
-	char	set2[] = "";
-	char	*trim;
-	char	*trim2;
-	char	*trim3;
-	char	*trim4;
-	char	*trim5;
-
-	trim = ft_strtrim(s1, set1);
-	printf("s1: %s  \nset: %s\nstrtrim: \"%s\"\n", s1, set1, trim);
-	free(trim);
-	trim2 = ft_strtrim(s1, set2);
-	printf("\ns1: %s  \nset: %s\nstrtrim: \"%s\"\n", s1, set2, trim2);
-	free(trim2);
-	trim3 = ft_strtrim(s2, set1);
-	printf("\ns1: %s  \nset: %s\nstrtrim: \"%s\"\n", s2, set1, trim3);
-	free(trim3);
-	trim4 = ft_strtrim(str4, set1);
-	printf("\ns1: %s  \nset: %s\nstrtrim: \"%s\"\n", str4, set1, trim4);
-	free(trim4);
-	trim5 = ft_strtrim(str4, set2);
-	printf("\ns1: %s  \nset: %s\nstrtrim: \"%s\"\n", str4, set2, trim5);
-	free(trim5);
-	return (0);
-}*/

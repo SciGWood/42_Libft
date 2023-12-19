@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 11:24:18 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/10 16:42:27 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:35:59 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,24 +43,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	strmapi[i] = '\0';
 	return (strmapi);
 }
-/*#include <stdio.h>
-
-static char	ft_tolower_bis(unsigned int d, char c)
-{
-	(void)d;
-	if ('A' <= c && c <= 'Z')
-		c += 32;
-	return (c);
-}
-
-int	main(void)
-{
-	char	big[] = "coucouPLOUFbonjour";
-	char	*strmapi;
-	
-	printf("%s\n*f: ft_tolower\n", big);
-	strmapi = ft_strmapi(big, ft_tolower_bis);
-	printf("%s\n", strmapi);
-	free(strmapi);
-	return (0);
-}*/

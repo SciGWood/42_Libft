@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 11:49:07 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/12/06 17:41:32 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:33:31 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,18 +39,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	str5[] = "Bonjour";
-	char	str6[] = "BonDjour";
-
-	printf("s1: %s s2: %s\n", str5, str6);
-	printf("n --> libC == 42libC\n");
-	printf("n: 3 --> %d == %d\n", memcmp(str5, str6, 3),
-	ft_memcmp(str5, str6, 3));
-	printf("n: 6 --> %d == %d\n", memcmp(str5, str6, 6),
-	ft_memcmp(str5, str6, 6));
-	return (0);
-}*/

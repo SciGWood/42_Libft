@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 13:14:51 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/11 10:00:23 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:35:32 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,20 +51,3 @@ size_t	ft_strlcat(char *dst, char *src, size_t size)
 	dst[i + j] = '\0';
 	return (l);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-		char			dest[20] = "Aa";
-		char			src[] = "Hello World";
-		unsigned int	i;
-		size_t			l;
-		
-		i = ft_strlen(dest);
-		i++;
-		printf("dest = %s, src = %s\n", dest, src);
-		printf("return value == %zu\n", ft_strlcat(dest, src, i));
-		l = ft_strlcat("pqrstuvwxyz", "abcd", 0);
-		printf("%zu\n", l);
-		return (0);
-}*/

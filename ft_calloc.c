@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/05 16:37:40 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/16 14:36:48 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:31:29 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,31 +60,3 @@ void	*ft_calloc(size_t nmemb, size_t size)
 		ft_bzero(ptr, useless);
 	return (ptr);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	str6[] = "Coucou";
-	char	str4[] = "";
-	//int		tab[5] = {1,2,3,4,5};
-	char	*calloc1;
-	char	*calloc2;
-	char	*calloc3;
-	char	*calloc4;
-
-	calloc1 = calloc(ft_strlen(str6), 1);
-	calloc2 = ft_calloc(ft_strlen(str6), 1);
-	printf("str: , return ptr --> libC (strlen) == 42libC (strlen)\n");
-	printf("%s --> %s (%zu) == %s (%zu)\n", str6, calloc1, ft_strlen(calloc1), 
-	calloc2, ft_strlen(calloc2));
-	free(calloc1);
-	free(calloc2);
-	calloc3 = calloc(ft_strlen(str4), 1);
-	calloc4 = ft_calloc(ft_strlen(str4), 1);
-	printf("str: , return ptr --> libC (strlen) == 42libC (strlen)\n");
-	printf("%s --> %s (%zu) == %s (%zu)\n", str4, calloc3, ft_strlen(calloc3), 
-	calloc4, ft_strlen(calloc4));
-	free(calloc3);
-	free(calloc4);
-	return (0);
-}*/

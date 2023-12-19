@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 11:38:08 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/11 15:17:10 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:36:05 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,18 +45,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	s1[] = "Bonjour";
-	char	s2[] = "BonDjour";
-	char	str4[] = "";
-
-	printf("s1: %s\ns2: %s\n", s1, s2);
-	printf("%d == %d\n", strncmp(s1, s2, 3), ft_strncmp(s1, s2, 3));
-	printf("%d == %d\n", strncmp(s1, s2, 6), ft_strncmp(s1, s2, 6));
-	printf("%d == %d\n", strncmp(s1, str4, 1), ft_strncmp(s1, str4, 1));
-	printf("%d == %d\n", strncmp(str4, s1, 2), ft_strncmp(str4, s1, 2));
-	return (0);
-}*/

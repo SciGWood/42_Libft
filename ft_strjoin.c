@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 14:47:32 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/11 17:51:43 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:35:24 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,32 +45,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(newstr, str2, (total_len + 1));
 	return (newstr);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	big[] = "coucouPLOUFbonjour";
-	char	little[] = "PLOUF";
-	char	*newstr;
-
-	printf("s1: %s\ns2: %s\n", big, little);
-	newstr = ft_strjoin(big, little);
-	printf("newstr: %s\n", newstr);
-	free(newstr);
-	return (0);
-}
-static char	*ft_strcat(char *dst, char *src)
-{
-	size_t	i;
-	size_t	j;
-
-	i = ft_strlen(dst);
-	j = 0;
-	while (src[j] != '\0')
-	{
-		dst[i + j] = src[j];
-		j++;
-	}
-	dst[i + j] = '\0';
-	return (dst);
-}*/

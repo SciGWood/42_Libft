@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 11:28:06 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/12 11:57:56 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:36:38 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,40 +50,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[i] = 0;
 	return (sub);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	const char	big[] = "coucouPLOUFbonjour";
-	char		str4[] = "";
-	char		*sub1;
-	char		*sub2;
-	char		*sub3;
-	char		*sub4;
-
-	sub1 = ft_substr(big, 6, 5);
-	printf("str: %s\nstart: 6, len: 5\nsub: %s\n", big, sub1);
-	free(sub1);
-	sub2 = ft_substr(big, 3, 8);
-	printf("\nstr: %s\nstart: 3, len: 8\nsub: %s\n", big, sub2);
-	free(sub2);
-	sub3 = ft_substr(str4, 6, 5);
-	printf("\nstr: %s\nstart: 6, len: 5\nsub: %s\n", str4, sub3);
-	free(sub3);
-	sub4 = ft_substr(big, 35, 5);
-	printf("str: %s\nstart: 6, len: 5\nsub: %s\n", big, sub4);
-	free(sub4);
-	return (0);
-}
-while (str[i] != '\0' && start < ft_strlen(str))
-	{
-		if (i == start)
-		{
-			while (str[start] != '\0' && start < i + len)
-				sub[j++] = str[start++];
-			sub[j] = '\0';
-			return (sub);
-		}
-		i++;
-	}
-	return (NULL);*/

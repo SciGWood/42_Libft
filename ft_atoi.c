@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:03:21 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/05 17:32:19 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:31:19 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,17 +36,3 @@ int	ft_atoi(const char *str)
 	}
 	return (res * sign);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	printf("tested == expected == libc == 42libc\n\n");
-	printf("ft_atoi\n");
-	printf("   +213lkn == 213 == %d == %d\n", atoi("   +213lkn"), 
-	ft_atoi("   +213lkn"));
-	printf("   +-+213lkn == 0 == %d == %d\n", atoi("   +-+213lkn"), 
-	ft_atoi("   +-+213lkn"));
-	printf(" \t=452ko == 0 == %d == %d\n", atoi(" \t=452ko"), 
-	ft_atoi(" \t=452ko"));
-	return (0);
-}*/

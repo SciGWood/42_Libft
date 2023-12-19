@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 12:18:28 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/05 16:41:55 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:32:16 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,3 @@ int	ft_isdigit(int c)
 	else
 		return (0);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	printf("tested == expected == libc == 42libc\n\n");
-	printf("ft_isdigit\n");
-	printf("a == 0 == %d == %d\n", isdigit('a'), ft_isdigit('a'));
-	printf("8 == 1 == %d == %d\n", isdigit('8'), ft_isdigit('8'));
-	return (0);
-}*/

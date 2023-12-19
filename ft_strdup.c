@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/05 16:37:37 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/13 14:03:59 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:35:07 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,19 +40,3 @@ char	*ft_strdup(char	*src)
 	newstr[i] = '\0';
 	return (newstr);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	str6[] = "Coucou";
-	char	*dup1;
-	char	*dup2;
-
-	dup1 = strdup(str6);
-	dup2 = ft_strdup(str6);
-	printf("src --> libC == 42libC\n");
-	printf("%s --> %s == %s\n", str6, dup1, dup2);
-	free(dup1);
-	free(dup2);
-	return (0);
-}*/

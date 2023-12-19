@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 15:56:18 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/11 17:47:49 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:32:29 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,25 +66,3 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	return (str);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	int		n1 = -2147483648;
-	int		n2 = 0;
-	int		n3 = -42;
-	char	*itoa1;
-	char	*itoa2;
-	char	*itoa3;
-	
-	itoa1 = ft_itoa(n1);
-	printf("n: %d == %s\n", n1, itoa1);
-	itoa2 = ft_itoa(n2);
-	printf("n: %d == %s\n", n2, itoa2);
-	itoa3 = ft_itoa(n3);
-	printf("n: %d == %s\n", n3, itoa3);
-	free(itoa1);
-	free(itoa2);
-	free(itoa3);
-	return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 09:25:40 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/10 10:57:59 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:34:19 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,34 +34,3 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write (fd, "\n", 1);
 }
-/*#include <stdio.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-
-int	main(void)
-{
-	char	big[] = "coucouPLOUFbonjour";
-	char	str4[] = "";
-	int		fd;
-
-	printf("\nfd = 1, str: %s\n", big);
-	ft_putendl_fd(big, 1);
-	printf("\nfd = 1, str: %s\n", str4);
-	ft_putendl_fd(str4, 1);
-	printf("\nfd = test_fd.txt, str: %s\n", big);
-	fd = open("test_fd.txt", O_RDWR | O_APPEND);
-	if (fd == -1)
-	{
-		printf("open() failed\n");
-		return (1);
-	}
-	ft_putendl_fd("ft_putendl_fd:", fd);
-	ft_putendl_fd(big, fd);
-	if (close(fd) == -1)
-	{
-		printf("close() failed\n");
-		return (1);
-	}
-	return (0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: gdetourn <gdetourn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 17:59:40 by gdetourn          #+#    #+#             */
-/*   Updated: 2023/10/11 13:27:01 by gdetourn         ###   ########.fr       */
+/*   Updated: 2023/12/19 09:33:50 by gdetourn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,22 +44,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	src_move[6] = "abcde";
-	char	src2_move[6] = "12345";
-	
-	printf("\nmemmove\n");
-	printf("src before: %s\n", src_move);
-	printf("return value:  address, src after: expected == str\n");
-	printf("return value: %p, src after: ababc == %s\n", 
-	memmove(src_move + 2, src_move, 3), src_move);
-	printf("\nft_memmove\n");
-	printf("src before: %s\n", src2_move);
-	printf("return value:  address, src after: expected == str\n");
-	printf("return value: %p, src after: 12123 == %s\n", 
-	ft_memmove(src2_move + 2, src2_move, 3), src2_move);
-	return (0);
-}*/
